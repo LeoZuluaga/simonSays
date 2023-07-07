@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cajaCuadrados {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+button {
+  margin: 40px;
+  width: 10%;
+  height: 100px;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#red {
+  background-color: red;
+  clip-path: inset(0 50% 50% 0);
+}
+
+#blue {
+  background-color: blue;
+  clip-path: inset(0 0 50% 50%);
+}
+
+#green {
+  background-color: green;
+  clip-path: inset(50% 0 0 50%);
+}
+
+#yellow {
+  background-color: yellow;
+  clip-path: inset(50% 50% 0 0);
+}
